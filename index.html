@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hello World!</title>
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background: white;">
+  <div class="container">
+    <div class="input-container">
+      <h4>A</h4>
+      <input type="number" name="" id="a-input" value="12">
+    </div>
+    <div class="input-container">
+      <h4>B</h4>
+      <input type="number" name="" id="b-input">
+    </div>
+    <div class="input-container">
+      <button class="font-large" id="btn-plus">+</button>
+      <button class="font-large" id="btn-minus">-</button>
+      <button class="font-large" id="btn-multiply">x</button>
+      <button class="font-large" id="btn-divide">/</button>
+      <button id="btn-pow">POW</button>
+    </div>
+    <div class="input-container">
+      <h4>Result</h4>
+      <span class="result-box" id="result">123</span>
+    </div>
+    <div class="button-container">
+      <button id="load">Load</button>
+      <button id="save">Save</button>
+    </div>
+  </div>
+
+
+  <script src="cal.js"></script>
+</body>
+
+</html>
